@@ -3,22 +3,26 @@
     {
       "id": 1,
       "name": "Vikings",
-      "seasons": 5
+      "seasons": 5,
+      "image": "1"
     },
     {
       "id": 2,
       "name": "WestWorld",
-      "seasons": 2
+      "seasons": 2,
+      "image": "https://okdiario.com/img/series/2016/12/25/maxresdefault-4.jpg"
     },
     {
       "id": 3,
       "name": "Breaking Bad",
-      "seasons": 5
+      "seasons": 5,
+      "image": "https://okdiario.com/img/series/2016/12/25/maxresdefault-4.jpg"
     },
     {
       "id": 4,
       "name": "Peaky Blinders",
-      "seasons": 4
+      "seasons": 4,
+      "image": "https://okdiario.com/img/series/2016/12/25/maxresdefault-4.jpg"
     }
   ]
 }

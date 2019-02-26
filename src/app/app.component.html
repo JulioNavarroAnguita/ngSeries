@@ -1,9 +1,17 @@
-<mat-menu #appMenu="matMenu">
-  <button mat-menu-item routerLink="">Inicio</button>
-  <button mat-menu-item routerLink="/series">Series</button>
-</mat-menu>
-<button mat-icon-button [matMenuTriggerFor]="appMenu">
+<mat-toolbar>
+    <span>WebSeries</span>
+  </mat-toolbar>
+<button mat-icon-button [matMenuTriggerFor]="menu">
   <mat-icon>more_vert</mat-icon>
 </button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="">
+    <mat-icon>home</mat-icon> <span>Inicio</span>
+  </button>
+  <button mat-menu-item routerLink="/series">
+    <mat-icon>movie</mat-icon> <span>Series</span>
+  </button>
+
+</mat-menu>
 
 <router-outlet></router-outlet>
