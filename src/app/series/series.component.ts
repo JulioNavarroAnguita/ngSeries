@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 export class SeriesComponent implements OnInit {
 
   series: Observable<Serie[]>;
-  displayedColumns: string[] = ['id', 'name', 'seasons', 'image'];
+  displayedColumns: string[] = ['id', 'image', 'name', 'seasons'];
 
 
   constructor(private seriesService: SeriesService) { }

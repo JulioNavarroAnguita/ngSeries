@@ -4,25 +4,62 @@
       "id": 1,
       "name": "Vikings",
       "seasons": 5,
-      "image": "1"
+      "image": "https://m.media-amazon.com/images/M/MV5BNDYyNzk1NzYwOF5BMl5BanBnXkFtZTgwMTQ0Nzc4MzI@._V1_UY98_CR2,0,67,98_AL_.jpg"
     },
     {
       "id": 2,
       "name": "WestWorld",
       "seasons": 2,
-      "image": "https://okdiario.com/img/series/2016/12/25/maxresdefault-4.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BNThjM2Y3MDUtYTIyNC00ZDliLWJlMmItNWY1N2E5NjhmMGM4XkEyXkFqcGdeQXVyNjU2ODM5MjU@._V1_UX67_CR0,0,67,98_AL_.jpg"
     },
     {
       "id": 3,
       "name": "Breaking Bad",
       "seasons": 5,
-      "image": "https://okdiario.com/img/series/2016/12/25/maxresdefault-4.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR1,0,67,98_AL_.jpg"
     },
     {
       "id": 4,
       "name": "Peaky Blinders",
       "seasons": 4,
-      "image": "https://okdiario.com/img/series/2016/12/25/maxresdefault-4.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BMTkzNjEzMDEzMF5BMl5BanBnXkFtZTgwMDI0MjE4MjE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Game of Thrones",
+      "seasons": 7,
+      "image": "https://m.media-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Dark",
+      "seasons": 1,
+      "image": "https://m.media-amazon.com/images/M/MV5BMTUzNjQ2MTY5NV5BMl5BanBnXkFtZTgwOTAzNTQxNDM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Stranger Things",
+      "seasons": 2,
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk3NTc2NTI0N15BMl5BanBnXkFtZTgwMDA4MjcwNzM@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+      "id": 8,
+      "name": "The 100",
+      "seasons": 5,
+      "image": "https://m.media-amazon.com/images/M/MV5BNjk0ZjEzNGEtOTg5Yy00ZTU3LWE1NTQtNWI4MTJmMTlkMTVhXkEyXkFqcGdeQXVyNDc0NDgwODI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+      "id": 9,
+      "name": "The Sinner",
+      "seasons": 2,
+      "image": "https://m.media-amazon.com/images/M/MV5BNTU5NDQ3NDk1Nl5BMl5BanBnXkFtZTgwOTMwMjg5NTM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+      "id": 10,
+      "name": "The Waliking Dead",
+      "seasons": 9,
+      "image": "https://m.media-amazon.com/images/M/MV5BNDM2OTA1NzIzMV5BMl5BanBnXkFtZTgwOTkxMTk5NjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
     }
+    
   ]
 }
