@@ -1,6 +1,6 @@
 # NgSeriesAndMovies
 
-![Alt Text](https://gitlab.iesvirgendelcarmen.com/JulioNavarroAnguita/Proyecto-PullRefreshLayout/blob/master/pullrefreshlayout.gif)
+![Alt Text](https://github.com/JulioNavarroAnguita/ngSeries/blob/master/pullrefreshlayout.gif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
