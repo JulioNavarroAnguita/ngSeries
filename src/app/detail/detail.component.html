@@ -1,3 +1,14 @@
-<p>
-  detail works!
-</p>
+<mat-list role="list" *ngIf="serie | async as element">
+  
+
+
+  <mat-list-item role="listitem" text-center><h1>{{ element.name }}</h1></mat-list-item>
+  <br />
+  <img src='{{ element.image }}' id="imagen">
+  <br />
+  <br />
+
+
+  <mat-list-item role="listitem">{{element.description}}</mat-list-item>
+  <mat-list-item role="listitem">Temporadas: {{element.seasons}}</mat-list-item>
+</mat-list> <button mat-flat-button color="primary" (click)="atras()">Atrás</button>

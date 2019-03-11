@@ -1,0 +1,20 @@
+<form class="alta-form" [formGroup]="formGroup">
+    <mat-form-field >
+    <input matInput placeholder="Id" formControlName="id">
+    </mat-form-field><br />
+    <mat-form-field >
+        <input matInput placeholder="Name" formControlName="name">
+    </mat-form-field><br />
+    <mat-form-field >
+        <input matInput placeholder="url imágen" formControlName="image">
+    </mat-form-field><br />
+    <mat-form-field >
+        <input matInput placeholder="Temporadas" formControlName="seasons">
+    </mat-form-field><br />
+    <mat-form-field >
+        <input matInput placeholder="Descripción" formControlName="description">
+    </mat-form-field><br />
+
+    <button mat-raised-button color="primary" (click)="saveSerie()">Crear</button>
+</form>
+

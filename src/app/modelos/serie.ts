@@ -4,5 +4,6 @@ export interface Serie {
   name: string;
   seasons: number;
   image: string;
+  description: string;
 
 }

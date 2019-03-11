@@ -8,11 +8,22 @@ table {
 th {
   font-weight:bold;
   color: white;
-  background-color:deepskyblue;
+  background-color:gainsboro;
   font-size: 100%;
 }
 
+.mat-elevation-z8 {
+ 
+  text-align: left
+}
 
+.btnAdd {
+  background-color: skyblue;
+}
+
+
+
+ 
 
 
 

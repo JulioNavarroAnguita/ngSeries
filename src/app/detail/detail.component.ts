@@ -1,4 +1,9 @@
+import { SeriesService } from './../series.service';
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
+import { Observable } from 'rxjs';
+import { Serie } from '../modelos/serie';
+import { switchMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-detail',
@@ -7,9 +12,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailComponent implements OnInit {
 
-  constructor() { }
+  serie: Observable<Serie>;
+
+  constructor(
+    private seriesService: SeriesService,
+    private route: ActivatedRoute,
+    private router: Router
+  ) { }
 
   ngOnInit() {
+    this.serie = this.route.paramMap.pipe(
+      switchMap(
+        (params: ParamMap) =>
+          this.seriesService.getSerie(params.get('id'))
+      )
+    );
+
+  }
+
+  atras() {
+    this.router.navigate(['/series']);
   }
 
 }
